@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+.title {
+  padding-bottom: 48px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_name {
+  color: #262626;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.sub_title_name {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #595959;
+}
+
+.e_input {
+  padding: 8px;
+}
+
+.login {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+.email_p {
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  color: #8c8c8c;
+}
+
+.container_wrap {
+  flex: 1 1 70%;
+}
+
+.side_image {
+  flex: 1 1 30%;
+}
+
+.side_img {
+  width: 100%;
+  height: 100vh;
+}
+
+.a_span {
+  text-decoration: underline;
+  padding: 10px 0;
+  display: block;
+  text-align: right;
+}
+
+.btn_div {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #bfbfbf;
+}
+
+.input-field {
+  width: 427px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #8C8C8C;;
+  border-radius: 8px;
+}
+
+.input-field input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: hidden;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #8c8c8c;
+}
+
+.input-field span {
+  cursor: pointer;
+}
